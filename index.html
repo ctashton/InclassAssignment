@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
     <head>
         <title>
             Student Bio
         </title>
+        <style>
+        body{
+            margin-block-start: 0
+        }
+        header {
+            background-color:black;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            float: left;
+            margin: 25px;
+        }
+
+        .float {
+            float: left;
+            max-width: 50%;
+        }
+        
+        </style>
     </head>
 
     <body>
-        <div>
+        <header>
             <h1>Student Bio</h1>
-        </div>
-        <div>
+        </header>
+        <section>
             <h2>Corey Thomas</h2>
-        </div>
-        <div>
-            <img src="IMG_5118.jpg" alt="Corey's Family" style="width: 200px;">
-        </div>
-       <div>
-           <p>My name is Corey Thomas.  I have two cats, two dogs, one wife and two children (almost 3) children. I like music, skateboarding, and long walks on the beach.</p>
-       </div>
-       <div>
+            <img class="float" src="IMG_5118.jpg" alt="Corey's Family" style="width: 200px;">
+            <div class="float">
+                My name is Corey Thomas.  I have two cats, two dogs, one wife and two children (almost 3) children. I like music, skateboarding, and long walks on the beach.
+            </div>
+           </section>
+        <div></div>
            <h2>Contact Info</h2>
            <ul>
                 <li>
